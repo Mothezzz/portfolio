@@ -156,6 +156,7 @@
 
             <!--Disable Captcha-->
             <input type="hidden" name="captcha" value="false">
+
         <div class="input-box">
 
             <h2 class="section-title">Kontakta mig</h2>
@@ -166,7 +167,14 @@
             <div class="input">
                 <input type="text" name="comments" placeholder="Ditt meddelande" required>
             </div>
-            <button class="btn">Skicka in</button>
+            <button id="contactmebtn" class="btn">Skicka in</button>
+                        <!--Sucess send-->
+                        <input type="hidden" name="_next" value="">
+                        <script>
+                            function doSomething(){
+                                document.getElementById("contactmebtn").innerHTML = "Skickad";
+                            }
+                        </script>
         </div>
         </form>
     </section>
