@@ -87,7 +87,7 @@ li a:hover::before{
 }
 
 section{
-    min-height: 100;
+    min-height: 100vh;
     padding: 8rem 12%;
     width: 100%;
     position: relative;
@@ -173,9 +173,11 @@ section{
 }
 .section-sent{
     text-align: center;
+    justify-content: center;
+    align-items: center;
     font-size: 2rem;
     font-weight: 600;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 .experience-info{
     display: flex;
