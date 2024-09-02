@@ -171,6 +171,12 @@ section{
     font-weight: 600;
     margin-bottom: 3rem;
 }
+.section-sent{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
 .experience-info{
     display: flex;
     align-items: center;
